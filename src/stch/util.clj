@@ -1,10 +1,10 @@
 (ns stch.util
   "Utility functions.")
 
-(defmacro with-private-vars
-  "Refers private vars from ns and executes body.
+(defmacro with-private-fns
+  "Refers private fns from ns and executes body.
 
-  (with-private-vars [org.foo.bar [fn1 fn2]]
+  (with-private-fns [org.foo.bar [fn1 fn2]]
     (fn1)
     (fn2))"
   [[ns vars] & body]

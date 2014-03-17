@@ -19,7 +19,7 @@ http://stch-library.github.io/util
 ```Clojure
 (use 'stch.util)
 
-(with-private-vars [org.foo.bar [fn1 fn2]]
+(with-private-fns [org.foo.bar [fn1 fn2]]
   (fn1)
   (fn2))
 

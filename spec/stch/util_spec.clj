@@ -2,8 +2,8 @@
   (:use speclj.core stch.util))
 
 (describe "stch.util"
-  (it "with-private-vars"
-    (with-private-vars [stch.util [named?]]
+  (it "with-private-fns"
+    (with-private-fns [stch.util [named?]]
       (should-be true? (named? "Billy"))))
   (it "heap-mb"
     (should-be (and-fn number? pos?) (heap-mb)))
