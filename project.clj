@@ -1,4 +1,4 @@
-(defproject stch-library/util "0.1.0"
+(defproject stch-library/util "0.1.1"
   :description "Utility fns for stch-library."
   :url "https://github.com/stch-library/util"
   :license {:name "Eclipse Public License"
