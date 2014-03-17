@@ -7,7 +7,7 @@ Utility fns for stch-library.
 Add the following to your project dependencies:
 
 ```Clojure
-[stch-library/util "0.1.0"]
+[stch-library/util "0.1.1"]
 ```
 
 ## API Documentation
