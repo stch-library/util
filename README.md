@@ -10,6 +10,10 @@ Add the following to your project dependencies:
 [stch-library/util "0.1.0"]
 ```
 
+## API Documentation
+
+http://stch-library.github.io/util
+
 ## Examples
 
 ```Clojure
