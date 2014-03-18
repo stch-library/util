@@ -2,11 +2,11 @@
 
 Utility fns for stch-library.
 
-## How to use
+## Installation
 
 Add the following to your project dependencies:
 
-```Clojure
+```clojure
 [stch-library/util "0.1.1"]
 ```
 
@@ -14,9 +14,9 @@ Add the following to your project dependencies:
 
 http://stch-library.github.io/util
 
-## Examples
+## How to use
 
-```Clojure
+```clojure
 (use 'stch.util)
 
 (with-private-fns [org.foo.bar [fn1 fn2]]
@@ -65,7 +65,9 @@ http://stch-library.github.io/util
 ; {:a {:b {:z 3, :c 3, :d {:z 9, :y 2, :x 1}}, :e 103}, :f 4}
 ```
 
+## Unit-tests
 
+Run "lein spec"
 
 
 
